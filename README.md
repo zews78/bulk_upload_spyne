@@ -1,4 +1,4 @@
-# FastAPI CSV Processor
+# FastAPI CSV Compressor
 
 ## Overview
 
