@@ -1,0 +1,4 @@
+S. No.,Product Name,Input Image Urls
+1,SKU1,"https://sharique-s3-bucket.s3.us-west-2.amazonaws.com/Capture.PNG,  https://sharique-s3-bucket.s3.us-west-2.amazonaws.com/Capture2.PNG, https://sharique-s3-bucket.s3.us-west-2.amazonaws.com/Capture3.PNG"
+2,SKU2,"https://sharique-s3-bucket.s3.us-west-2.amazonaws.com/Capture6.PNG, https://sharique-s3-bucket.s3.us-west-2.amazonaws.com/Capture8.PNG"
+3,SKU3,https://sharique-s3-bucket.s3.us-west-2.amazonaws.com/dau_ui+(2).jpeg
