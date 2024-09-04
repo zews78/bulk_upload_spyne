@@ -1,13 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.8">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-
-        <!-- Main Component -->
         <mxCell id="2" value="Main" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="164.5" y="128" width="280" height="570" as="geometry" />
+          <mxGeometry x="164.5" y="128" width="280" height="650" as="geometry" />
         </mxCell>
         <mxCell id="5" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="2" vertex="1">
           <mxGeometry x="100" y="40" width="30" height="30" as="geometry" />
@@ -26,14 +24,24 @@
         <mxCell id="9" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" parent="2" source="7" target="8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="10" value="Store Initial Data" style="" parent="2" vertex="1">
-          <mxGeometry x="60" y="325" width="110" height="50" as="geometry" />
+        <mxCell id="UhZH_MJT8QhgAZjdkTYd-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2" source="10" target="UhZH_MJT8QhgAZjdkTYd-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Store Initial raw Data" style="" parent="2" vertex="1">
+          <mxGeometry x="60" y="325" width="140" height="65" as="geometry" />
         </mxCell>
         <mxCell id="11" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" parent="2" source="8" target="10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <!-- Image Processor Component -->
+        <mxCell id="UhZH_MJT8QhgAZjdkTYd-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2" source="UhZH_MJT8QhgAZjdkTYd-39" target="UhZH_MJT8QhgAZjdkTYd-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UhZH_MJT8QhgAZjdkTYd-39" value="Return progress status" style="whiteSpace=wrap;html=1;" vertex="1" parent="2">
+          <mxGeometry x="70" y="442" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UhZH_MJT8QhgAZjdkTYd-41" value="Background (image processor)" style="whiteSpace=wrap;html=1;" vertex="1" parent="2">
+          <mxGeometry x="55" y="572" width="120" height="50" as="geometry" />
+        </mxCell>
         <mxCell id="3" value="Image Processor" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
           <mxGeometry x="444.5" y="128" width="280" height="570" as="geometry" />
         </mxCell>
@@ -54,33 +62,27 @@
         <mxCell id="17" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" parent="3" source="15" target="16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="18" value="Save Image URL to DB" style="" parent="3" vertex="1">
-          <mxGeometry x="20" y="325" width="110" height="50" as="geometry" />
+        <mxCell id="18" value="Save Image URL to Mongo DB" style="" parent="3" vertex="1">
+          <mxGeometry x="20" y="325" width="170" height="65" as="geometry" />
         </mxCell>
         <mxCell id="19" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" parent="3" source="16" target="18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <!-- End of Processing -->
         <mxCell id="38" value="" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#ff0000" parent="3" vertex="1">
           <mxGeometry x="130" y="500" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="39" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" parent="3" source="18" target="38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <!-- Database Handler Component -->
         <mxCell id="4" value="Database Handler" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
           <mxGeometry x="724.5" y="128" width="280" height="570" as="geometry" />
         </mxCell>
-        <mxCell id="33" value="Update Request Status" style="" parent="4" vertex="1">
-          <mxGeometry x="90" y="405" width="110" height="50" as="geometry" />
+        <mxCell id="33" value="Check Request Status" style="" parent="4" vertex="1">
+          <mxGeometry x="60" y="132" width="110" height="50" as="geometry" />
         </mxCell>
-
         <mxCell id="34" value="Store Image Data" style="" parent="4" vertex="1">
           <mxGeometry x="60" y="280" width="110" height="50" as="geometry" />
         </mxCell>
-
       </root>
     </mxGraphModel>
   </diagram>
