@@ -47,4 +47,4 @@ def get_status(request_id):
     if request:
         return {"request_id": request_id, "status": request["status"], "message": request["message"]}
     else:
-        return {"request_id": request_id, "status": "Not found", "message": ""}
+        return {"request_id": request_id, "status": "Not found!", "message": ""}
