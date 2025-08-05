@@ -26,8 +26,8 @@ This application is designed to process CSV files that include image data. It va
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/your-username/fastapi-csv-processor.git
-    cd fastapi-csv-processor
+    git clone https://github.com/zews78/bulk_upload_spyne.git
+    cd bulk_upload_spyne
     ```
 
 2. Create a virtual environment and activate it:
