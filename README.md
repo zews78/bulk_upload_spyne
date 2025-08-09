@@ -1,4 +1,4 @@
-# FastAPI CSV Compressor
+# FastAPI CSV Bulk Import Compressor
 
 ## Overview
 
