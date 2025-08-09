@@ -81,7 +81,11 @@ Below is the activity diagram representing the workflow of the application:
 ## Screenshots
 
 ### Successful API Hits
-![Upload Screenshot](./test_data/Screenshot%202024-09-02%20025327.png)
+
+![POST BULK IMPORT](./test_data/Screenshot%202024-09-02%20025327.png)
+
+![GET CHECK STATUS](./test_data/Fetch%20Status%20API.png)
+
 
 ### Successful File Upload
 ![Upload Screenshot](./test_data/Screenshot%202024-09-02%20022324.png)
