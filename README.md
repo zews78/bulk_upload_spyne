@@ -77,6 +77,7 @@ Below is the activity diagram representing the workflow of the application:
 
 ![Activity Diagram](./test_data/Screenshot%202024-09-02%20044317.png)
 
+![ ](./test_data/image.png)
 ## Screenshots
 
 ### Successful API Hits
